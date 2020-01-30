@@ -1,0 +1,80 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "641ba449-9283-44e5-beaf-e04ba3031af1": {
+        "id": "641ba449-9283-44e5-beaf-e04ba3031af1",
+        "parent": null,
+        "name": "wd04",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "d5a3da30-451d-4e9a-bf9f-817629c4cb18"
+        ],
+        "isRemovable": false,
+        "filePath": "wd04"
+      },
+      "d5a3da30-451d-4e9a-bf9f-817629c4cb18": {
+        "id": "d5a3da30-451d-4e9a-bf9f-817629c4cb18",
+        "parent": "641ba449-9283-44e5-beaf-e04ba3031af1",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "wd04/lambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "641ba449-9283-44e5-beaf-e04ba3031af1",
+    "openFiles": [
+      "d5a3da30-451d-4e9a-bf9f-817629c4cb18"
+    ],
+    "currentFileId": "d5a3da30-451d-4e9a-bf9f-817629c4cb18",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "wd04",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "language": "javascript",
+    "lastSave": 1580365900249
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "wd04",
+      "url": "https://github.com/zgma-test/wd04"
+    }
+  }
+}
